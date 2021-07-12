@@ -1,0 +1,12 @@
+name: 'test/ci-workflow'
+
+on: 
+  push:
+    branches:
+      - cool
+
+jobs:
+  sample:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'hello gh actions'
